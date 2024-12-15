@@ -1,0 +1,140 @@
+.weather-dashboard {
+  max-width: 99%;
+  height: 630px;
+  margin: 5px auto;
+  padding: 20px;
+  font-family:  "Concert One", sans-serif;
+  background: url('https://images.pexels.com/photos/355872/pexels-photo-355872.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+.weather-dashboard .search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.weather-dashboard .search input{
+  border: 2px solid rgb(65, 48, 6);
+  width: 70%;
+}
+.search input::placeholder{
+  color: goldenrod;
+}
+.weather-dashboard h2
+ {
+  text-align: center;
+  color: wheat;
+  font-style: oblique;
+  font-size: 28px;
+}
+.weather-dashboard h3{
+    text-align: center;
+  color:rgb(9, 57, 99);
+  font-style: oblique;
+  font-size: 25px;
+
+}
+
+.oneline{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.weather-info {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.weather-info h2 {
+  font-size: 24px;
+  color: thistle;
+}
+.weather-info p{
+    color: rgb(243, 232, 210);
+}
+
+.forecast {
+  margin: 20px auto;
+}
+.forecast h3{
+  margin: 20px auto;
+}
+.forecast .forecast-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 20px;
+  overflow-x: auto;
+  flex-wrap: wrap;
+}
+
+.forecast .forecast-cards .forecast-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 20px;
+  border: 2px solid #60a9f171;
+  border-radius: 10px;
+  text-align: center;
+  background: thistle;
+  flex-wrap: wrap;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.forecast .forecast-cards .forecast-card:hover{
+  width: 17%;
+  padding: 22px;
+  background: goldenrod;
+  color: white;
+  opacity: 1;
+}
+
+.favorites {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.favorites button {
+  margin: 5px;
+  padding: 5px 10px;
+  background: darkolivegreen;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.favorites h3{
+    color: thistle;
+}
+
+input[type="text"] {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: darkolivegreen;
+  color: #fff;
+  border: none;
+  border-radius: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(158, 238, 238);
+  border-radius: 10px 0px 10px 0px;
+  color: teal;
+}
